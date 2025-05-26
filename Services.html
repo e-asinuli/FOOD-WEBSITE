@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Our Services - SCOOPICE FOOD'S</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .services-section {
+      background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+      padding: 60px 20px;
+      color: #fff;
+      position: relative;
+    }
+
+    /* Overlay for readability */
+    .services-section::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+
+    .services-content {
+      position: relative;
+      z-index: 2;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .services-content h1 {
+      font-size: 40px;
+      color: #f39c12;
+      margin-bottom: 40px;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .service-box {
+      background-color: rgba(255, 255, 255, 0.9);
+      color: #333;
+      border-radius: 12px;
+      padding: 20px;
+      width: 300px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .service-box:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-box img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+
+    .service-box h3 {
+      color: #d35400;
+      margin-bottom: 10px;
+    }
+
+    .service-box p {
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="services-section">
+    <div class="services-content">
+      <h1>Our Services</h1>
+      <div class="services">
+
+        <div class="service-box">
+          <img src="https://img.icons8.com/color/96/000000/food-delivery.png" alt="Delivery">
+          <h3>Fast Delivery</h3>
+          <p>Enjoy hot and fresh meals delivered to your door in minutes with our reliable delivery service.</p>
+        </div>
+
+        <div class="service-box">
+          <img src="https://img.icons8.com/color/96/000000/wedding-cake.png" alt="Catering">
+          <h3>Catering</h3>
+          <p>We cater to all occasions — birthdays, weddings, and corporate events with delicious custom menus.</p>
+        </div>
+
+        <div class="service-box">
+          <img src="https://img.icons8.com/color/96/000000/restaurant-table.png" alt="Dine In">
+          <h3>Dine-In</h3>
+          <p>Visit our cozy restaurant and experience a warm ambiance paired with top-notch culinary delights.</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
